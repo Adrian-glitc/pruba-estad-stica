@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt  
+import pandas as pd  
+
+# Datos de ejemplo (frecuencias por cuerda)  
+data = {  
+    '6ª': [82.1, 87.1, 92.2, 97.2, 104],  
+    '5ª': [110, 116, 123, 132, 139],  
+    '1ª': [330, 348, 370, ..., 988]  # Completar con tus datos  
+}  
+
+df = pd.DataFrame(data)  
+df.boxplot()  
+plt.title('Distribución de Frecuencias por Cuerda')  
+plt.ylabel('Frecuencia (Hz)')  
+plt.show()  
